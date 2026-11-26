@@ -37,7 +37,7 @@ Do not put them in different folders.
 
 | # | File name | What it is |
 |---|---|---|
-| 1 | `Student_Performance_Prediction-v5.ipynb` | The notebook (open this file) |
+| 1 | `Student_Performance_Prediction-notebook.ipynb` | The notebook (open this file) |
 | 2 | `StudentPerformanceFactors.csv` | The dataset (6,607 records) |
 
 You do **not** need to download `figures/` or `models/` in advance. Those folders are created automatically after **Run All**.
@@ -51,21 +51,21 @@ Keep the notebook and the CSV in the **same folder**:
 
 ```
 ELCE_455_Project/
-├── Student_Performance_Prediction-v5.ipynb
+├── Student_Performance_Prediction-Prediction-notebook.ipynb
 └── StudentPerformanceFactors.csv
 ```
 
 ### Option A — Anaconda / Jupyter
 
 1. Open **Anaconda Navigator** → **Jupyter Notebook**.
-2. In Jupyter, open **that same folder**, then open `Student_Performance_Prediction-v5.ipynb`.
+2. In Jupyter, open **that same folder**, then open `Student_Performance_Prediction-notebook.ipynb`.
 3. Click **Kernel → Restart & Run All** (or the **Run All** button).
 4. Wait until every cell finishes.
 
 ### Option B — VS Code, Cursor, Antigravity, or a similar IDE
 
 1. Put the two files in the same folder, **or** unzip the ZIP and open that folder in the IDE (**File → Open Folder**).
-2. Open `Student_Performance_Prediction-v5.ipynb`.
+2. Open `Student_Performance_Prediction-notebook.ipynb`.
 3. Select an Anaconda / Python kernel if the IDE asks for one.
 4. Click **Run All**.
 5. Wait until every cell finishes.
@@ -82,7 +82,7 @@ Two new folders appear next to the two source files:
 
 ```
 ELCE_455_Project/
-├── Student_Performance_Prediction-v5.ipynb
+├── Student_Performance_Prediction-notebook.ipynb
 ├── StudentPerformanceFactors.csv
 ├── figures/          ← all plots (saved automatically)
 └── models/           ← trained model (saved automatically)
